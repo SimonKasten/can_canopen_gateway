@@ -1,0 +1,466 @@
+VERSION ""
+
+
+NS_ : 
+	NS_DESC_
+	CM_
+	BA_DEF_
+	BA_
+	VAL_
+	CAT_DEF_
+	CAT_
+	FILTER
+	BA_DEF_DEF_
+	EV_DATA_
+	ENVVAR_DATA_
+	SGTYPE_
+	SGTYPE_VAL_
+	BA_DEF_SGTYPE_
+	BA_SGTYPE_
+	SIG_TYPE_REF_
+	VAL_TABLE_
+	SIG_GROUP_
+	SIG_VALTYPE_
+	SIGTYPE_VALTYPE_
+	BO_TX_BU_
+	BA_DEF_REL_
+	BA_REL_
+	BA_DEF_DEF_REL_
+	BU_SG_REL_
+	BU_EV_REL_
+	BU_BO_REL_
+	SG_MUL_VAL_
+
+BS_:
+
+BU_:
+
+
+BO_ 3221225472 VECTOR__INDEPENDENT_SIG_MSG: 0 Vector__XXX
+ SG_ op_enable : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ relative_absolut : 0|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ op_mode : 0|8@1- (1,0) [0|0] "" Vector__XXX
+
+BO_ 2147491842 START_MODUS_ID2: 3 Vector__XXX
+ SG_ op_enable : 8|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ relative_absolut : 16|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ op_mode : 0|8@1- (1,0) [0|0] "" Vector__XXX
+
+BO_ 2165379346 WATCHDOG_ID2: 8 Vector__XXX
+
+BO_ 2165379345 WATCHDOG_ID1: 8 Vector__XXX
+
+BO_ 2147491841 START_MODUS_ID1: 3 Vector__XXX
+ SG_ op_enable : 8|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ relative_absolut : 16|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ op_mode : 0|8@1- (1,0) [0|0] "" Vector__XXX
+
+BO_ 2147495938 CONTROL_ID2: 3 Vector__XXX
+ SG_ controlword : 0|16@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ op_mode : 16|8@1- (1,0) [0|0] "" Vector__XXX
+
+BO_ 2147489026 MODE_ID2: 8 Vector__XXX
+ SG_ control_mode : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 2147489025 MODE_ID1: 8 Vector__XXX
+ SG_ control_mode : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 2147495937 CONTROL_ID1: 3 Vector__XXX
+ SG_ controlword : 0|16@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ op_mode : 16|8@1- (1,0) [-128|127] "" Vector__XXX
+
+BO_ 2165309506 STATUS_4_ID2: 8 Vector__XXX
+ SG_ S_motor_temp : 0|32@1- (1,0) [0|0] "" Vector__XXX
+
+BO_ 2165309490 STATUS_3_ID2: 8 Vector__XXX
+ SG_ S_soll_torque : 32|32@1- (1,0) [0|0] "Nm" Vector__XXX
+ SG_ S_ist_torque : 0|32@1- (1,0) [0|0] "Nm" Vector__XXX
+
+BO_ 2165309474 STATUS_2_ID2: 8 Vector__XXX
+ SG_ S_limit_torque : 32|32@1- (1,0) [0|0] "" Vector__XXX
+ SG_ S_ist_strom : 0|32@1- (1,0) [0|0] "A" Vector__XXX
+
+BO_ 2165309458 STATUS_1_ID2: 8 Vector__XXX
+ SG_ S_position : 32|32@1- (1,0) [0|0] "revs" Vector__XXX
+ SG_ S_drehzahl : 0|32@1- (1,0) [0|0] "rpm" Vector__XXX
+
+BO_ 2165309505 STATUS_4_ID1: 8 Vector__XXX
+ SG_ S_motor_temp : 0|32@1- (1,0) [0|0] "" Vector__XXX
+
+BO_ 2165309489 STATUS_3_ID1: 8 Vector__XXX
+ SG_ S_soll_torque : 32|32@1- (1,0) [0|0] "Nm" Vector__XXX
+ SG_ S_ist_torque : 0|32@1- (1,0) [0|0] "Nm" Vector__XXX
+
+BO_ 2165309473 STATUS_2_ID1: 8 Vector__XXX
+ SG_ S_limit_torque : 32|32@1- (1,0) [0|0] "" Vector__XXX
+ SG_ S_ist_strom : 0|32@1- (1,0) [0|0] "A" Vector__XXX
+
+BO_ 2165309457 STATUS_1_ID1: 8 Vector__XXX
+ SG_ S_position : 32|32@1- (1,0) [0|0] "revs" Vector__XXX
+ SG_ S_drehzahl : 0|32@1- (1,0) [0|0] "rpm" Vector__XXX
+
+BO_ 2164261509 TPDO2_5: 8 Vector__XXX
+ SG_ A3 : 48|16@1- (1,0) [0|0] "" Vector__XXX
+ SG_ A2 : 32|16@1- (1,0) [0|0] "" Vector__XXX
+ SG_ A1 : 16|16@1- (1,0) [0|0] "" Vector__XXX
+ SG_ A0 : 0|16@1- (1,0) [0|0] "" Vector__XXX
+
+BO_ 2164261508 TPDO2_4: 8 Vector__XXX
+ SG_ A3 : 48|16@1- (1,0) [0|0] "" Vector__XXX
+ SG_ A2 : 32|16@1- (1,0) [0|0] "" Vector__XXX
+ SG_ A1 : 16|16@1- (1,0) [0|0] "" Vector__XXX
+ SG_ A0 : 0|16@1- (1,0) [0|0] "" Vector__XXX
+
+BO_ 2164261253 TPDO1_5: 2 Vector__XXX
+ SG_ D9 : 9|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ D8 : 8|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ D7 : 7|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ D6 : 6|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ D5 : 5|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ D4 : 4|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ D3 : 3|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ D2 : 2|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ D15 : 15|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ D14 : 14|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ D13 : 13|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ D12 : 12|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ D11 : 11|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ D10 : 10|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ D1 : 1|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ D0 : 0|1@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 2164261252 TPDO1_4: 2 Vector__XXX
+ SG_ D9 : 9|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ D8 : 8|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ D7 : 7|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ D6 : 6|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ D5 : 5|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ D4 : 4|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ D3 : 3|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ D2 : 2|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ D15 : 15|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ D14 : 14|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ D13 : 13|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ D12 : 12|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ D11 : 11|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ D10 : 10|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ D1 : 1|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ D0 : 0|1@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 2164261507 TPDO2_3: 8 Vector__XXX
+ SG_ A3 : 48|16@1- (1,0) [0|0] "" Vector__XXX
+ SG_ A2 : 32|16@1- (1,0) [0|0] "" Vector__XXX
+ SG_ A1 : 16|16@1- (1,0) [0|0] "" Vector__XXX
+ SG_ A0 : 0|16@1- (1,0) [0|0] "" Vector__XXX
+
+BO_ 2164261251 TPDO1_3: 2 Vector__XXX
+ SG_ D9 : 9|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ D8 : 8|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ D7 : 7|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ D6 : 6|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ D5 : 5|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ D4 : 4|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ D3 : 3|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ D2 : 2|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ D15 : 15|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ D14 : 14|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ D13 : 13|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ D12 : 12|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ D11 : 11|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ D10 : 10|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ D1 : 1|1@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ D0 : 0|1@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 2147516594 PAR_B_ID2: 8 Vector__XXX
+ SG_ faktor_Nm_A : 32|32@1- (1,0) [0|0] "Nm/A" Vector__XXX
+ SG_ M_pos_saturation : 0|32@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 2147516578 PAR_A_ID2: 8 Vector__XXX
+ SG_ M_pos_D_gain : 32|32@1- (1,0) [0|0] "" Vector__XXX
+ SG_ M_pos_I_gain : 0|32@1- (1,0) [0|0] "" Vector__XXX
+
+BO_ 2147516561 PAR_9_ID1: 8 Vector__XXX
+ SG_ M_cur_P_gain : 0|32@1- (1,0) [0|0] "" Vector__XXX
+ SG_ M_cur_I_gain : 32|32@1- (1,0) [0|0] "" Vector__XXX
+
+BO_ 2147520514 MOT_PARAM_ID2: 8 Vector__XXX
+
+BO_ 2147520513 MOT_PARAM_ID1: 8 Vector__XXX
+
+BO_ 2147516642 PAR_E_ID2: 8 Vector__XXX
+
+BO_ 2147516626 PAR_D_ID2: 8 Vector__XXX
+
+BO_ 2147516610 PAR_C_ID2: 8 Vector__XXX
+
+BO_ 2147516562 PAR_9_ID2: 8 Vector__XXX
+ SG_ M_cur_P_gain : 0|32@1- (1,0) [0|0] "" Vector__XXX
+ SG_ M_cur_I_gain : 32|32@1- (1,0) [0|0] "" Vector__XXX
+
+BO_ 2147516546 PAR_8_ID2: 8 Vector__XXX
+ SG_ M_max_profile_dec : 32|32@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ M_max_profile_acc : 0|32@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 2147516530 PAR_7_ID2: 8 Vector__XXX
+ SG_ M_max_dec : 32|32@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ M_max_acc : 0|32@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 2147516514 PAR_6_ID2: 8 Vector__XXX
+ SG_ M_max_speed : 32|32@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ M_max_profile_speed : 0|32@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 2147516498 PAR_5_ID2: 8 Vector__XXX
+ SG_ M_torque_slope : 32|32@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ M_rated_torque : 0|32@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 2147516482 PAR_4_ID2: 8 Vector__XXX
+ SG_ M_rated_I : 32|32@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ M_peak_I : 0|32@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 2147516466 PAR_3_ID2: 8 Vector__XXX
+ SG_ M_R : 32|32@1- (1,0) [0|0] "" Vector__XXX
+ SG_ M_L : 0|32@1- (1,0) [0|0] "" Vector__XXX
+
+BO_ 2147516450 PAR_2_ID2: 8 Vector__XXX
+ SG_ M_vel_I_gain : 32|32@1- (1,0) [0|0] "" Vector__XXX
+ SG_ M_vel_P_gain : 0|32@1- (1,0) [0|0] "" Vector__XXX
+
+BO_ 2147516434 PAR_1_ID2: 8 Vector__XXX
+ SG_ M_max_I : 32|16@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ M_pos_P_gain : 0|32@1- (1,0) [0|0] "" Vector__XXX
+
+BO_ 2147516641 PAR_E_ID1: 8 Vector__XXX
+
+BO_ 2147516625 PAR_D_ID1: 8 Vector__XXX
+
+BO_ 2147516609 PAR_C_ID1: 8 Vector__XXX
+
+BO_ 2147516593 PAR_B_ID1: 8 Vector__XXX
+ SG_ faktor_Nm_A : 32|32@1- (1,0) [0|0] "Nm/A" Vector__XXX
+ SG_ M_pos_saturation : 0|32@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 2147516577 PAR_A_ID1: 8 Vector__XXX
+ SG_ M_pos_D_gain : 32|32@1- (1,0) [0|0] "" Vector__XXX
+ SG_ M_pos_I_gain : 0|32@1- (1,0) [0|0] "" Vector__XXX
+
+BO_ 2147516545 PAR_8_ID1: 8 Vector__XXX
+ SG_ M_max_profile_dec : 32|32@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ M_max_profile_acc : 0|32@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 2147516529 PAR_7_ID1: 8 Vector__XXX
+ SG_ M_max_dec : 32|32@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ M_max_acc : 0|32@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 2147516513 PAR_6_ID1: 8 Vector__XXX
+ SG_ M_max_speed : 32|32@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ M_max_profile_speed : 0|32@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 2147516497 PAR_5_ID1: 8 Vector__XXX
+ SG_ M_torque_slope : 32|32@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ M_rated_torque : 0|32@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 2147516481 PAR_4_ID1: 8 Vector__XXX
+ SG_ M_rated_I : 32|32@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ M_peak_I : 0|32@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 2147516465 PAR_3_ID1: 8 Vector__XXX
+ SG_ M_R : 32|32@1- (1,0) [0|0] "" Vector__XXX
+ SG_ M_L : 0|32@1- (1,0) [0|0] "" Vector__XXX
+
+BO_ 2147516449 PAR_2_ID1: 8 Vector__XXX
+ SG_ M_vel_I_gain : 32|32@1- (1,0) [0|0] "" Vector__XXX
+ SG_ M_vel_P_gain : 0|32@1- (1,0) [0|0] "" Vector__XXX
+
+BO_ 2147516433 PAR_1_ID1: 8 Vector__XXX
+ SG_ M_max_I : 32|16@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ M_pos_P_gain : 0|32@1- (1,0) [0|0] "" Vector__XXX
+
+BO_ 2147516418 MOT_CONFIG_ID2: 8 Vector__XXX
+
+BO_ 2147516417 MOT_CONFIG_ID1: 8 Vector__XXX
+
+BO_ 2164261249 TPDO1_1: 5 Vector__XXX
+ SG_ mode_specific : 12|2@1+ (1,0) [0|3] "" Vector__XXX
+ SG_ man2 : 14|2@1+ (1,0) [0|3] "" Vector__XXX
+ SG_ warning : 7|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ voltage_en : 4|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ target_reached : 10|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ switched_on : 1|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ switch_on_disabled : 6|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ remote : 9|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ rdy_switch_on : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ quick_stop : 5|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ op_enable : 2|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ man : 8|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ internal_limit_active : 11|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ fault : 3|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ ist_torq : 24|16@1- (1,0) [0|0] "" Vector__XXX
+ SG_ opmode : 16|8@1- (1,0) [0|0] "" Vector__XXX
+
+BO_ 2164262018 TPDO4_2: 8 Vector__XXX
+ SG_ pos_ext : 32|32@1- (1,0) [0|0] "" Vector__XXX
+ SG_ dig_in : 0|32@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 2164261762 TPDO3_2: 8 Vector__XXX
+ SG_ analog2 : 48|16@1- (1,0) [0|0] "" Vector__XXX
+ SG_ analog1 : 32|16@1- (1,0) [0|0] "" Vector__XXX
+ SG_ soll_torq : 16|16@1- (1,0) [0|0] "" Vector__XXX
+ SG_ ist_curr : 0|16@1- (1,0) [0|0] "" Vector__XXX
+
+BO_ 2164261506 TPDO2_2: 8 Vector__XXX
+ SG_ ist_pos : 0|32@1- (1,0) [0|0] "" Vector__XXX
+ SG_ ist_rpm : 32|32@1- (1,0) [0|0] "" Vector__XXX
+
+BO_ 2164261250 TPDO1_2: 5 Vector__XXX
+ SG_ mode_specific : 12|2@1+ (1,0) [0|3] "" Vector__XXX
+ SG_ man2 : 14|2@1+ (1,0) [0|3] "" Vector__XXX
+ SG_ warning : 7|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ voltage_en : 4|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ target_reached : 10|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ switched_on : 1|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ switch_on_disabled : 6|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ remote : 9|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ rdy_switch_on : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ quick_stop : 5|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ op_enable : 2|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ man : 8|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ internal_limit_active : 11|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ fault : 3|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ ist_torq : 24|16@1- (1,0) [0|0] "" Vector__XXX
+ SG_ opmode : 16|8@1- (1,0) [0|0] "" Vector__XXX
+
+BO_ 2147487746 INIT_ID2: 3 Vector__XXX
+ SG_ befehl : 16|8@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 2147487747 INIT_ELREST: 3 Vector__XXX
+ SG_ befehl : 16|8@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 2147500033 STOP_MODUS_ID1: 2 Vector__XXX
+ SG_ stop_mode : 8|8@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 2147492866 Postion_Beschl_ID2: 8 Vector__XXX
+ SG_ P_max_dec : 32|32@1- (1,0) [0|0] "rpm/s" Vector__XXX
+ SG_ P_max_acc : 0|32@1- (1,0) [0|0] "rpm/s" Vector__XXX
+
+BO_ 2147492610 Postion_Werte_ID2: 8 Vector__XXX
+ SG_ P_soll_rpm : 32|32@1- (1,0) [0|0] "rpm" Vector__XXX
+ SG_ P_soll_pos : 0|32@1- (1,0) [0|0] "" Vector__XXX
+
+BO_ 2147492354 Drehmoment_Werte_ID2: 8 Vector__XXX
+ SG_ T_soll_torq : 0|32@1- (1,0) [0|0] "Nm" Vector__XXX
+ SG_ T_max_rpm : 32|32@1- (1,0) [0|0] "rpm" Vector__XXX
+
+BO_ 2147492098 Drehzahl_Werte_ID2: 8 Vector__XXX
+ SG_ D_soll_rpm : 0|32@1- (1,0) [0|0] "rpm" Vector__XXX
+ SG_ D_max_torq : 32|32@1- (1,0) [0|0] "Nm" Vector__XXX
+
+BO_ 2147550593 SDO_ANTWORT: 8 Vector__XXX
+ SG_ sdo_antwort : 32|32@1- (1,0) [0|0] "" Vector__XXX
+ SG_ sdo_sub : 24|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ sdo_cob : 8|16@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ sdo_rw : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 2147550721 SDO: 8 Vector__XXX
+ SG_ sdo_wert : 32|32@1- (1,0) [0|0] "" Vector__XXX
+ SG_ sdo_sub : 24|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ sdo_cob : 8|16@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ sdo_rw : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 2164262017 TPDO4_1: 8 Vector__XXX
+ SG_ pos_ext : 32|32@1- (1,0) [0|0] "" Vector__XXX
+ SG_ dig_in : 0|32@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 2164261761 TPDO3_1: 8 Vector__XXX
+ SG_ analog2 : 48|16@1- (1,0) [0|0] "" Vector__XXX
+ SG_ analog1 : 32|16@1- (1,0) [0|0] "" Vector__XXX
+ SG_ soll_torq : 16|16@1- (1,0) [0|0] "" Vector__XXX
+ SG_ ist_curr : 0|16@1- (1,0) [0|0] "" Vector__XXX
+
+BO_ 2164261505 TPDO2_1: 8 Vector__XXX
+ SG_ ist_pos : 0|32@1- (1,0) [0|0] "" Vector__XXX
+ SG_ ist_rpm : 32|32@1- (1,0) [0|0] "" Vector__XXX
+
+BO_ 2147549183 AKZEPTIERT: 8 Vector__XXX
+ SG_ success : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+
+BO_ 2147492865 Postion_Beschl_ID1: 8 Vector__XXX
+ SG_ P_max_dec : 32|32@1- (1,0) [0|0] "rpm/s" Vector__XXX
+ SG_ P_max_acc : 0|32@1- (1,0) [0|0] "rpm/s" Vector__XXX
+
+BO_ 2147492609 Postion_Werte_ID1: 8 Vector__XXX
+ SG_ P_soll_rpm : 32|32@1- (1,0) [0|0] "rpm" Vector__XXX
+ SG_ P_soll_pos : 0|32@1- (1,0) [0|0] "" Vector__XXX
+
+BO_ 2147492353 Drehmoment_Werte_ID1: 8 Vector__XXX
+ SG_ T_soll_torq : 0|32@1- (1,0) [0|0] "Nm" Vector__XXX
+ SG_ T_max_rpm : 32|32@1- (1,0) [0|0] "rpm" Vector__XXX
+
+BO_ 2147500034 STOP_MODUS_ID2: 2 Vector__XXX
+ SG_ stop_mode : 8|8@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 2147487745 INIT_ID1: 3 Vector__XXX
+ SG_ befehl : 16|8@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 2147492097 Drehzahl_Werte_ID1: 8 Vector__XXX
+ SG_ D_soll_rpm : 0|32@1- (1,0) [0|0] "rpm" Vector__XXX
+ SG_ D_max_torq : 32|32@1- (1,0) [0|0] "Nm" Vector__XXX
+
+
+
+CM_ BO_ 3221225472 "This is a message for not used signals, created by Vector CANdb++ DBC OLE DB Provider.";
+BA_DEF_  "BusType" STRING ;
+BA_DEF_DEF_  "BusType" "";
+BA_ "BusType" "CAN";
+SIG_VALTYPE_ 2165309506 S_motor_temp : 1;
+SIG_VALTYPE_ 2165309490 S_soll_torque : 1;
+SIG_VALTYPE_ 2165309490 S_ist_torque : 1;
+SIG_VALTYPE_ 2165309474 S_limit_torque : 1;
+SIG_VALTYPE_ 2165309474 S_ist_strom : 1;
+SIG_VALTYPE_ 2165309458 S_position : 1;
+SIG_VALTYPE_ 2165309458 S_drehzahl : 1;
+SIG_VALTYPE_ 2165309505 S_motor_temp : 1;
+SIG_VALTYPE_ 2165309489 S_soll_torque : 1;
+SIG_VALTYPE_ 2165309489 S_ist_torque : 1;
+SIG_VALTYPE_ 2165309473 S_limit_torque : 1;
+SIG_VALTYPE_ 2165309473 S_ist_strom : 1;
+SIG_VALTYPE_ 2165309457 S_position : 1;
+SIG_VALTYPE_ 2165309457 S_drehzahl : 1;
+SIG_VALTYPE_ 2147516594 faktor_Nm_A : 1;
+SIG_VALTYPE_ 2147516578 M_pos_D_gain : 1;
+SIG_VALTYPE_ 2147516578 M_pos_I_gain : 1;
+SIG_VALTYPE_ 2147516561 M_cur_P_gain : 1;
+SIG_VALTYPE_ 2147516561 M_cur_I_gain : 1;
+SIG_VALTYPE_ 2147516562 M_cur_P_gain : 1;
+SIG_VALTYPE_ 2147516562 M_cur_I_gain : 1;
+SIG_VALTYPE_ 2147516466 M_R : 1;
+SIG_VALTYPE_ 2147516466 M_L : 1;
+SIG_VALTYPE_ 2147516450 M_vel_I_gain : 1;
+SIG_VALTYPE_ 2147516450 M_vel_P_gain : 1;
+SIG_VALTYPE_ 2147516434 M_pos_P_gain : 1;
+SIG_VALTYPE_ 2147516593 faktor_Nm_A : 1;
+SIG_VALTYPE_ 2147516577 M_pos_D_gain : 1;
+SIG_VALTYPE_ 2147516577 M_pos_I_gain : 1;
+SIG_VALTYPE_ 2147516465 M_R : 1;
+SIG_VALTYPE_ 2147516465 M_L : 1;
+SIG_VALTYPE_ 2147516449 M_vel_I_gain : 1;
+SIG_VALTYPE_ 2147516449 M_vel_P_gain : 1;
+SIG_VALTYPE_ 2147516433 M_pos_P_gain : 1;
+SIG_VALTYPE_ 2147492866 P_max_dec : 1;
+SIG_VALTYPE_ 2147492866 P_max_acc : 1;
+SIG_VALTYPE_ 2147492610 P_soll_rpm : 1;
+SIG_VALTYPE_ 2147492610 P_soll_pos : 1;
+SIG_VALTYPE_ 2147492354 T_soll_torq : 1;
+SIG_VALTYPE_ 2147492354 T_max_rpm : 1;
+SIG_VALTYPE_ 2147492098 D_soll_rpm : 1;
+SIG_VALTYPE_ 2147492098 D_max_torq : 1;
+SIG_VALTYPE_ 2147550593 sdo_antwort : 1;
+SIG_VALTYPE_ 2147550721 sdo_wert : 1;
+SIG_VALTYPE_ 2147492865 P_max_dec : 1;
+SIG_VALTYPE_ 2147492865 P_max_acc : 1;
+SIG_VALTYPE_ 2147492609 P_soll_rpm : 1;
+SIG_VALTYPE_ 2147492609 P_soll_pos : 1;
+SIG_VALTYPE_ 2147492353 T_soll_torq : 1;
+SIG_VALTYPE_ 2147492353 T_max_rpm : 1;
+SIG_VALTYPE_ 2147492097 D_soll_rpm : 1;
+SIG_VALTYPE_ 2147492097 D_max_torq : 1;
+
